@@ -1,3 +1,24 @@
 {
-  "version": "0.0.1"
+    "name" : "o4glrt",
+    "description" : "Node implementation of Progress OpenEdge Open Client",
+    "keywords" : ["openedge","o4glrt", "abl", "progress", "open client"],
+    "homepage" : "https://github.com/zerovian/node-o4glrt",
+    "version": "0.0.1",
+    "bugs" : {
+        "email" : "zerovian@gmail.com",
+        "url" : "https://github.com/zerovian/node-o4glrt/issues"
+    },
+
+    "license" : "Apache-2.0",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/zerovian/node-o4glrt"
+    },
+    "config" : {
+        "http-url" : "http://localhost:8810",
+        "https-url" : "https://localhost:8811"
+    },
+    "dependencies" : {}
+    
+    
 }
